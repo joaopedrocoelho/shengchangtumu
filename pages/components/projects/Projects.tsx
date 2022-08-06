@@ -10,7 +10,7 @@ const Projects = () => {
     <div className="my-20 flex flex-col justify-center items-center">
       <h3 className="font-bold text-3xl ">Latest Projects</h3>
       <div className=" w-12 bg-baseYellow h-1 my-8"></div>
-      <div className="w-3/5 flex gap-12 justify-center">
+      <div className="sm:w-3/5 w-full flex sm:flex-row flex-col items-center sm:gap-12 gap-12 justify-center">
         <ProjectItem imgSrc={Project1}/>
         <ProjectItem imgSrc={Project2}/>
         <ProjectItem imgSrc={Project3}/>

@@ -9,16 +9,13 @@ import Projects from "./components/projects/Projects";
 
 const Home: NextPage = () => {
   return (
-    <>
-      {/* //nav */}
+    <div className="flex flex-col">
       <Nav />
-      {/* //banner */}
       <Hero />
-
       <Projects />
       <AboutUs />
       {/* <FeaturedWork /> */}
-    </>
+    </div>
   );
 };
 

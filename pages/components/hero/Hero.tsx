@@ -4,7 +4,7 @@ import RightHeroBanner from './RightHeroBanner';
 
 const Hero = () => {
   return (
-    <div className="flex w-full h-500">
+    <div className="flex w-full sm:h-500 sm:flex-row flex-col">
     {/* left hero */}
     <LeftHeroBanner />
     {/* right hero */}

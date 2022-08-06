@@ -10,6 +10,9 @@ module.exports = {
         500: "500px",
         600: "600px",
       },
+      minHeight: {
+        500: "500px",
+      },
       colors: {
         baseYellow: "#F8B108",
       },
