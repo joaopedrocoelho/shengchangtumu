@@ -1,9 +1,16 @@
 import React, { FC } from 'react'
+import Image from 'next/image'
 
-const ProjectItem:FC = () => {
+interface props {
+    imgSrc: any;
+}
+
+const ProjectItem:FC<props> = ({imgSrc}) => {
   return (
     <div className="w-1/3 flex flex-col h-500">
-    <div className="h-1/3 bg-cyan-300 mb-6"></div>
+    <div className="h-1/3 bg-cyan-300 mb-6 w-full overflow-clip">
+        <Image alt='Project'  src={imgSrc} layout="responsive"></Image>
+    </div>
     <div className="h-3/4 border-2 border-gray-500 flex flex-col px-6 py-4">
       <h6 className="font-bold text-xl my-5 text-gray-700">Project Title</h6>
       <p className="text-base  text-gray-500 leading-7">

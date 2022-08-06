@@ -1,4 +1,6 @@
 import React from "react";
+import Image from "next/image";
+import demoImage from "../../../public/img/featured_demo.jpg";
 
 const AboutUs = () => {
   return (
@@ -22,7 +24,11 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="grid grid-cols-2 grid-rows-6 w-3/4 h-full">
-        <div className="flex row-span-5 bg-cyan-400 col-span-2"></div>
+        <div className="flex row-span-5 bg-cyan-400 col-span-2 place-items-center overflow-clip">
+            <Image alt='Project'  src={demoImage}  width={1200} height={800}>
+
+            </Image>
+        </div>
         <div className="row-span-1 bg-baseYellow col-span-1 flex flex-col gap-3 justify-center pl-6">
             <h4 className="font-bold text-black text-xl">Call for a quote</h4>
             <h4 className=" text-black text-lg">0900 278 166</h4>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <div className="flex w-full py-8 px-12 bg-white">
+    <div className="flex w-full sm:py-8 py-4 sm:px-12 bg-white">
     <div className="mr-auto">Logo</div>
     <nav>
       <ul className="flex justify-center gap-4">

@@ -2,7 +2,7 @@ import React from "react";
 
 const LeftHeroBanner = () => {
   return (
-    <div className="flex w-4/6 bg-gray-500">
+    <div className="flex w-4/6 bg-gray-500 bg-heroDemo bg-cover">
       <div className="flex flex-col justify-center items-start m-auto w-4/5">
         <h1
           className="text-6xl font-bold

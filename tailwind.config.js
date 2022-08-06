@@ -13,6 +13,9 @@ module.exports = {
       colors: {
         baseYellow: "#F8B108",
       },
+      backgroundImage : {
+        'heroDemo': 'linear-gradient(90deg, rgba(0,0,0,0.70) 0%, rgba(0,0,0,0.7) 100%), url("../public/img/hero_demo.jpg")'
+      }
     },
   },
   plugins: [],
