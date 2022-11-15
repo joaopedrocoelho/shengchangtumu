@@ -1,3 +1,10 @@
+# Shengchangtumu
+
+Website for a construction company. Built with Next.js and Typescript.
+![screenshot-rocks](https://user-images.githubusercontent.com/65225269/201847965-945bfdb8-f50b-4370-b29b-657e9df7855b.png)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
